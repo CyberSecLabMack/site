@@ -1,0 +1,6 @@
+# Site settings
+title: MackCyberSecurityLab
+
+
+# Build settings
+remote_theme: jekyll/minima
