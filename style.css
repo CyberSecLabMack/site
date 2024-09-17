@@ -203,14 +203,12 @@ section {
 .home .image {
     flex: 1 1 42rem;
     text-align: top;
-    /*text-align: center;*/
 }
 
 .home .image img {
     height: 50rem;
     width: 50rem;
-    border-radius: 50% 50%;
-    /*border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;*/
+    border-radius: 50%;
 }
 
 .home .content {
@@ -250,7 +248,7 @@ section {
 
 .about .row .info-container h1 {
     font-size: 3rem;
-    color: #black;
+    color: black;
     text-transform: uppercase;
     padding-bottom: 1rem;
 }
@@ -370,7 +368,7 @@ section {
 
 .education .box-container .box span {
     font-size: 2rem;
-    color: #black;
+    color: black;
     border-radius: 5rem;
     padding: .5rem 1.5rem;
     background: lightskyblue;
@@ -708,4 +706,31 @@ section {
     line-height: 1.4;
     min-height: 4.5rem;
     /* Definindo uma altura mínima para evitar quebra de linha */
+}
+
+/* Estilos para a seção do QR code */
+.qr-code-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.qr-code-section h4 {
+    font-size: 2rem;
+    color: lightskyblue;
+}
+
+.qr-code-section .qr-code {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.qr-code-section a {
+    font-size: 1.6rem;
+    color: blue;
+    text-decoration: none;
+}
+
+.qr-code-section a:hover {
+    text-decoration: underline;
 }
