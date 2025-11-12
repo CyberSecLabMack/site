@@ -17,13 +17,15 @@
     /* Definindo uma cor de fundo para o cabeçalho */
 }
 
+/* ISSO ESTÁ CORRETO */
 body {
-    font-family: 'Noto Sans JP', sans-serif;
-    background-color: #fef8f8;
-    margin: 0;
-    padding: 0;
+    background-image: url('fotos/processoseletivoCyberSecLab2025original.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    padding-bottom: 6.5rem;
 }
-
 .cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -100,10 +102,6 @@ html::-webkit-scrollbar-thumb {
     background: blue;
 }
 
-body {
-    background: #ffffff;
-    padding-bottom: 6.5rem;
-}
 
 section {
     padding: 5rem 2rem;

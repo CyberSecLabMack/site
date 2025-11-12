@@ -42,9 +42,14 @@ html {
     }
 }
 
+
 body {
-    background: $black;
-    padding-bottom: 6.5rem;
+  background-image: url('fotos/processoseletivoCyberSecLab2025original.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  padding-bottom: 6.5rem;
 }
 
 section {
